@@ -2,7 +2,7 @@
  
 ## 알맹이 스터디
 
-"이것이 취업을 위한 코딩 테스트다 with 파이썬"[책](http://www.yes24.com/Product/Goods/91433923)/[코드](https://github.com/ndb796/python-for-coding-test)을 가지고 시작한 알고리즘 스터디 입니다.
+"이것이 취업을 위한 코딩 테스트다 with 파이썬" [책](http://www.yes24.com/Product/Goods/91433923)/[코드](https://github.com/ndb796/python-for-coding-test)을 가지고 시작한 알고리즘 스터디 입니다.
 
 ### 스터디 참여하는 방법
 
