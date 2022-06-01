@@ -1,4 +1,5 @@
-## 큰 수의 법칙
+# 큰 수의 법칙
+
 ```py
 n, m, k = map(int, input().split())
 
