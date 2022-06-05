@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 int n, m, k, cnt;
-int i;
 int result = 0;
 int* v;
 
@@ -16,8 +15,7 @@ int main()
 	scanf("%d %d %d", &n, &m, &k);
 	v = (int*)malloc(n * sizeof(int));
 
-	for (i = 0; i < n; i++)
-	{
+	for (int i = 0; i < n; i++) {
 		scanf("%d", &v[i]);
 	}
 	qsort(v, n, sizeof(int), compare);
@@ -25,8 +23,10 @@ int main()
 	cnt = (m / (k + 1)) * k;
 	cnt += m % (k + 1);
 
-	result += cnt * v[n-1];
-	result += (m - cnt) * v[n-2];
+	result += cnt * v[n - 1];
+	result += (m - cnt) * v[n - 2];
 
-	printf("%d", result);
+	printf("%d\n", result);
+
+	free(v);
 }
